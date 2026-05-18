@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KrishiRadar</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_chat">AI Chat</string>
+    <string name="nav_ask_image">Ask Image</string>
+    <string name="nav_audio_scribe">Audio Scribe</string>
+    <string name="nav_mobile_actions">Mobile Actions</string>
+    <string name="nav_model_manager">Model Manager</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Coco</string>
+    <string name="home_subtitle">Coconut disease detection</string>
+    <string name="home_no_model">No model downloaded</string>
+    <string name="home_setup_model">Set up Model</string>
+    <string name="home_model_ready">Model ready</string>
+
+    <!-- Model Manager -->
+    <string name="model_manager_title">Model Manager</string>
+    <string name="model_download">Download</string>
+    <string name="model_delete">Delete</string>
+    <string name="model_downloading">Downloading…</string>
+    <string name="model_verifying">Verifying checksum…</string>
+    <string name="model_ready">Ready</string>
+    <string name="model_failed">Download failed</string>
+    <string name="model_paused">Paused</string>
+    <string name="model_recommended">Recommended</string>
+    <string name="model_wifi_only_title">Wi-Fi only</string>
+    <string name="model_wifi_only_summary">Download only on Wi-Fi (recommended)</string>
+    <string name="model_cellular_confirm_title">Download on mobile data?</string>
+    <string name="model_cellular_confirm_body">This model is %1$s. Downloading on mobile data may incur significant charges.</string>
+    <string name="model_cellular_confirm_proceed">Download anyway</string>
+    <string name="model_insufficient_storage">Not enough storage. Need %1$s free.</string>
+    <string name="model_insufficient_ram_title">Device may struggle</string>
+    <string name="model_insufficient_ram_body">Your device has limited RAM for this model. Performance may be degraded.</string>
+    <string name="model_cloud_fallback_title">Limited hardware detected</string>
+    <string name="model_cloud_fallback_body">Your device may not support offline AI well. You can still try, but expect reduced performance.</string>
+    <string name="model_continue_anyway">Continue anyway</string>
+    <string name="device_capability_title">Device Capability</string>
+
+    <!-- Chat -->
+    <string name="chat_hint">Ask something…</string>
+    <string name="chat_clear">Clear chat</string>
+    <string name="chat_thinking">Thinking…</string>
+    <string name="chat_copy">Copy</string>
+
+    <!-- Ask Image -->
+    <string name="ask_image_title">Ask Image</string>
+    <string name="ask_image_pick">Pick image</string>
+    <string name="ask_image_capture">Take photo</string>
+    <string name="ask_image_hint">Ask about this image…</string>
+    <string name="ask_image_no_image">Select or capture an image first</string>
+
+    <!-- Audio Scribe -->
+    <string name="audio_scribe_title">Audio Scribe</string>
+    <string name="audio_scribe_tap_to_record">Tap to record</string>
+    <string name="audio_scribe_recording">Recording…</string>
+    <string name="audio_scribe_transcribing">Transcribing…</string>
+    <string name="audio_scribe_summarize">Summarize</string>
+    <string name="audio_scribe_copy_transcript">Copy transcript</string>
+
+    <!-- Mobile Actions -->
+    <string name="mobile_actions_title">Mobile Actions</string>
+    <string name="mobile_actions_hint">Describe an action…</string>
+    <string name="mobile_actions_execute">Execute</string>
+
+    <!-- Errors -->
+    <string name="error_model_not_loaded">Model not loaded. Please download a model first.</string>
+    <string name="error_inference_failed">Inference failed. Please try again.</string>
+    <string name="error_camera_permission">Camera permission required.</string>
+    <string name="error_mic_permission">Microphone permission required.</string>
+    <string name="error_download_interrupted">Download interrupted. Resuming when possible.</string>
+    <string name="error_checksum_mismatch">Model file corrupted. Re-downloading.</string>
+    <string name="error_no_wifi">No Wi-Fi connection. Enable mobile data override in settings.</string>
+</resources>

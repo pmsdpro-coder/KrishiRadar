@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    KrishiNetra icon: an eye (Netra) containing a sprouting wheat/leaf (Krishi).
+    Viewport 108×108 with standard adaptive-icon safe zone (72×72 centred).
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ── Outer eye shape (white) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+            M54,30
+            C30,30 14,54 14,54
+            C14,54 30,78 54,78
+            C78,78 94,54 94,54
+            C94,54 78,30 54,30 Z" />
+
+    <!-- ── Iris (medium green) ── -->
+    <path
+        android:fillColor="#388E3C"
+        android:pathData="
+            M54,38
+            A16,16 0 1 1 53.99,38 Z" />
+
+    <!-- ── Pupil (dark) ── -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="
+            M54,46
+            A8,8 0 1 1 53.99,46 Z" />
+
+    <!-- ── Wheat stalk — vertical stem ── -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,60 L54,38" />
+
+    <!-- ── Left grain ── -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,50 Q48,46 46,42" />
+
+    <!-- ── Right grain ── -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,50 Q60,46 62,42" />
+
+    <!-- ── Left grain 2 ── -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,55 Q47,51 44,47" />
+
+    <!-- ── Right grain 2 ── -->
+    <path
+        android:strokeColor="#F9A825"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,55 Q61,51 64,47" />
+
+    <!-- ── Wheat tip dot ── -->
+    <path
+        android:fillColor="#F9A825"
+        android:pathData="
+            M54,36
+            A2,2 0 1 1 53.99,36 Z" />
+
+    <!-- ── Eye highlight (top-left glint) ── -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.35"
+        android:pathData="
+            M44,46
+            A6,4 0 0 1 50,42 Z" />
+
+</vector>
