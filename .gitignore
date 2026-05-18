@@ -11,3 +11,19 @@ local.properties
 app/release/
 *.jks
 *.keystore
+
+# Android build
+/build/
+/app/build/
+
+# APKs
+*.apk
+
+# ONNX models
+*.onnx
+
+# Gradle
+.gradle/
+
+# Local config
+local.properties
